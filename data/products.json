@@ -158,7 +158,41 @@
     "power": "147 kW (197 HP)",
     "bucketCapacity": "1.4 m³",
     "undercarriage": "95% New",
-    "image": "/images/used-doosan-dx300lc-excavator-95-new.png"
+    "image": "/images/used-doosan-dx300lc-excavator-95-new.png",
+    "longDescription": "Purchasing a high-quality <strong>used Doosan DX300LC-excavator</strong> is a strategic investment for large-scale earthmoving and mining operations. This <strong>used Doosan DX300LC-excavator</strong> stands out with its robust Doosan DL08 engine, delivering exceptional breakout force and cycle times. Our certified <strong>used Doosan DX300LC-excavator</strong> has undergone rigorous testing to ensure 95% new performance standards across its hydraulic pump and main valves. For international buyers seeking reliability at a wholesale price, this <strong>used Doosan DX300LC-excavator</strong> represents the peak of heavy machinery value in the current market.",
+    "detailImages": [
+      "/images/doosan-dx300-detail-1.webp",
+      "/images/doosan-dx300-detail-2.webp",
+      "/images/doosan-dx300-detail-3.webp",
+      "/images/doosan-dx300-detail-4.webp"
+    ],
+    "features": [
+      "High-Performance Doosan DL08 Engine: Tier 3 compliant with 147 kW power for superior digging depth.",
+      "Electronic Control System (e-EPOS): Maximizes fuel efficiency and synchronizes hydraulic flow for smooth operation.",
+      "Reinforced Heavy-Duty Boom and Arm: Built for high-stress mining and demolition environments.",
+      "Advanced Operator Cabin: Noise-reduction technology, ergonomic seating, and full 360-degree visibility.",
+      "Simplified Maintenance: Grouped grease points and easy access to filters for reduced downtime."
+    ],
+    "whyChooseUs": [
+      "Expert Inspection Certification: Each machine passes a 120-point technical audit before shipment.",
+      "Global Logistics Network: Reliable shipping to over 50 countries with professional lashing and insurance.",
+      "Direct Yard Wholesale Pricing: Eliminate middlemen and get the best market value for your equipment.",
+      "Post-Sale Technical Support: Professional engineering team available for assembly and maintenance guidance."
+    ],
+    "faqs": [
+      {
+        "q": "What is the lead time for shipping a used Doosan DX300LC-excavator?",
+        "a": "Typically, we can arrange inland transport to the port within 7 days after final payment confirmation."
+      },
+      {
+        "q": "Do you provide engine and pump health reports?",
+        "a": "Yes, every used Doosan DX300LC-excavator comes with a certified inspection report from professional third-party agencies."
+      },
+      {
+        "q": "Can I request a video inspection?",
+        "a": "Absolutely! We offer live video walkthroughs and detailed operation videos for all our machinery."
+      }
+    ]
   },
   {
     "id": "KOM016",
