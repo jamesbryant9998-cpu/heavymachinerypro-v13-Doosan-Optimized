@@ -35,8 +35,11 @@ export default function Product({ params }: PageProps) {
     "@context": "https://schema.org/",
     "@type": "Product",
     "name": String(product.model || ""),
-    "image": `https://heavymachinerypro.com${product.image || ""}`,
-    "description": String(product.condition || ""),
+    "image": [
+      `https://heavymachinerypro.com${product.image || ""}`,
+      ...(product.detailImages || []).map((img: string) => `https://heavymachinerypro.com${img}`)
+    ],
+    "description": String(product.longDescription || product.condition || "").replace(/<[^>]*>?/gm, ''),
     "brand": { "@type": "Brand", "name": String(product.brand || "") },
     "offers": {
       "@type": "Offer",
@@ -45,6 +48,14 @@ export default function Product({ params }: PageProps) {
       "itemCondition": "https://schema.org/UsedCondition",
       "availability": "https://schema.org/InStock",
       "url": `https://heavymachinerypro.com/products/${product.slug || ""}`
+    },
+    "mainEntity": {
+      "@type": "Question",
+      "name": "Features of " + product.model,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": (product.features || []).join(". ")
+      }
     }
   };
 
